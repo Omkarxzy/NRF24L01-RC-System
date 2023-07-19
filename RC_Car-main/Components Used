@@ -1,0 +1,7 @@
+For the 11 channel Tranmitter
+Components Present: 2 Joysticks(4Channel) , 1 Potentiometer(1Channel) , 2 Toggle Switch(2Channels) , 4 PushButtons(4Channels)
+Arduino Nano, nrf24L01+PA+LNA, AMS1117 3.3v Regulator Module(For nrf24l01 Module), 2 18650 Li-ion Batteries .
+
+On the Receiver Side Components used
+Arduino Nano, nrf24L01, 2 L298N motor Driver, 4 Single Shaft DC motor, 4 Wheels, 2 18650 Li-ion Batteries, Active Piezo Buzzer,
+12v Led Strip. 

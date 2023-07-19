@@ -1,0 +1,7 @@
+{
+    "port": "COM7",
+    "configuration": "cpu=atmega328old",
+    "board": "arduino:avr:nano",
+    "programmer": "avrisp",
+    "sketch": "Receiver_Kinda_main_03.ino"
+}
