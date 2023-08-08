@@ -1,7 +1,0 @@
-{
-    "configuration": "cpu=atmega328old",
-    "board": "arduino:avr:nano",
-    "port": "COM8",
-    "sketch": "Transmitter.ino",
-    "programmer": "avrisp"
-}
