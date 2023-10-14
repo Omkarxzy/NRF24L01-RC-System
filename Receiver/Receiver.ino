@@ -1,4 +1,3 @@
-
 #include<nRF24L01.h>
 #include<RF24.h>
 #include<SPI.h>
@@ -6,6 +5,7 @@
 RF24 radio(7,8);
 const byte address[]="node0";
 
+//Front Motors Pins
 #define ENA1 5
 #define ENB1 6
 #define IN1 4
@@ -13,6 +13,7 @@ const byte address[]="node0";
 #define IN3 2
 #define IN4 A4
 
+//Back Motors Pins
 #define ENA2 9
 #define ENB2 10
 #define IN5 A0
