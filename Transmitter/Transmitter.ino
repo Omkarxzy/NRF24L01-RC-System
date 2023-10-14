@@ -3,13 +3,20 @@
 #include<RF24.h>
 #include<SPI.h>
 
+//Pins of the 2 Joysticks
 #define x1Pin A0
 #define y1Pin A1
 #define x2Pin A2
 #define y2Pin A3
+
+//Potentiomter Pin
 #define potPin A4
+
+//2 Toggle Switch Pins
 #define toggle1 2
 #define toggle2 3
+
+//4 PushButtons Pins
 #define button1 4
 #define button2 5
 #define button3 6
@@ -24,10 +31,10 @@ void setup() {
 radio.begin(); //intializes the operations of Chip
 radio.openWritingPipe(address);
 radio.setPALevel(RF24_PA_LOW); 
-/* this function is used to set the value of PowerAmplifier Range
+/* the above function is used to set the value of PowerAmplifier Range
    you can either set PALevel to MIN , LOW , HIGH , MAX
 */
-radio.setDataRate(RF24_250KBPS);
+radio.setDataRate(RF24_250KBPS); //There are 3 DataRates: 250KBPS , 1MBPS , 2MBPS
 radio.stopListening(); //this function stops the nRF24L01 module from reading any data
 
 Serial.begin(9600);
